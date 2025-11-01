@@ -35,7 +35,7 @@ const Section1 = () => {
             animationDelay: '0.2s'
           }}>
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: '1.5rem' }}>
-              <BookOpen size={32} style={{ color: '#667eea', marginRight: '1rem' }} />
+              <FaBook size={32} style={{ color: '#667eea', marginRight: '1rem' }} />
               <h3 style={{ fontSize: '1.5rem', fontWeight: '600', color: '#667eea' }}>
                 Khái Niệm và Bản Chất
               </h3>
@@ -60,7 +60,7 @@ const Section1 = () => {
               border: '1px solid rgba(102, 126, 234, 0.2)'
             }}>
               <div style={{ display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }}>
-                <ArrowRight size={20} style={{ color: '#667eea', marginRight: '0.5rem' }} />
+                <FaArrowRight size={20} style={{ color: '#667eea', marginRight: '0.5rem' }} />
                 <strong style={{ color: '#1a365d' }}>Kết luận quan trọng:</strong>
               </div>
               <p style={{ fontStyle: 'italic', lineHeight: '1.6', color: '#1a365d' }}>
@@ -75,7 +75,7 @@ const Section1 = () => {
             animationDelay: '0.4s'
           }}>
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: '1.5rem' }}>
-              <History size={32} style={{ color: '#764ba2', marginRight: '1rem' }} />
+              <FaHistory size={32} style={{ color: '#764ba2', marginRight: '1rem' }} />
               <h3 style={{ fontSize: '1.5rem', fontWeight: '600', color: '#764ba2' }}>
                 Cơ Sở Hình Thành
               </h3>
@@ -100,7 +100,7 @@ const Section1 = () => {
               border: '1px solid rgba(102, 126, 234, 0.2)'
             }}>
               <div style={{ display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }}>
-                <ArrowRight size={20} style={{ color: '#764ba2', marginRight: '0.5rem' }} />
+                <FaArrowRight size={20} style={{ color: '#764ba2', marginRight: '0.5rem' }} />
                 <strong style={{ color: '#1a365d' }}>Thành tựu 35+ năm:</strong>
               </div>
               <p style={{ fontStyle: 'italic', lineHeight: '1.6', color: '#1a365d' }}>

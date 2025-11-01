@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaStar, FaCheckCircle, FaBullseye, FaAward } from 'react-icons/fa';
+import { FaStar, FaCheck, FaBullseye, FaTrophy } from 'react-icons/fa';
 
 const Section3 = () => {
   return (
@@ -39,7 +39,7 @@ const Section3 = () => {
             animationDelay: '0.2s'
           }}>
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: '2rem' }}>
-              <Star size={32} style={{ color: '#667eea', marginRight: '1rem' }} />
+              <FaStar size={32} style={{ color: '#667eea', marginRight: '1rem' }} />
               <h3 style={{ fontSize: '1.75rem', fontWeight: '600', color: '#667eea' }}>
                 Tính Đặc Thù
               </h3>
@@ -54,7 +54,7 @@ const Section3 = () => {
                 backdropFilter: 'blur(10px)'
               }}>
                 <div style={{ display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }}>
-                  <CheckCircle size={20} style={{ color: '#667eea', marginRight: '0.5rem' }} />
+                  <FaCheck size={20} style={{ color: '#667eea', marginRight: '0.5rem' }} />
                   <strong style={{ color: '#667eea' }}>Đa dạng thành phần kinh tế</strong>
                 </div>
                 <p style={{ color: '#1a365d', margin: 0 }}>Kinh tế nhà nước giữ vai trò chủ đạo trong các lĩnh vực then chốt (điện lực, dầu khí, tài chính-ngân hàng...).</p>
@@ -68,7 +68,7 @@ const Section3 = () => {
                 backdropFilter: 'blur(10px)'
               }}>
                 <div style={{ display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }}>
-                  <CheckCircle size={20} style={{ color: '#667eea', marginRight: '0.5rem' }} />
+                  <FaCheck size={20} style={{ color: '#667eea', marginRight: '0.5rem' }} />
                   <strong style={{ color: '#667eea' }}>Kinh tế tư nhân được thừa nhận</strong>
                 </div>
                 <p style={{ color: '#1a365d', margin: 0 }}>Là động lực quan trọng của nền kinh tế, tạo việc làm, đóng góp ngân sách, nhưng hoạt động trong khuôn khổ pháp luật XHCN.</p>
@@ -82,7 +82,7 @@ const Section3 = () => {
                 backdropFilter: 'blur(10px)'
               }}>
                 <div style={{ display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }}>
-                  <CheckCircle size={20} style={{ color: '#667eea', marginRight: '0.5rem' }} />
+                  <FaCheck size={20} style={{ color: '#667eea', marginRight: '0.5rem' }} />
                   <strong style={{ color: '#667eea' }}>Nhà nước pháp quyền XHCN</strong>
                 </div>
                 <p style={{ color: '#1a365d', margin: 0 }}>Giữ vai trò định hướng, điều tiết và phân phối lại thông qua thuế, đầu tư công, an sinh xã hội.</p>
@@ -96,7 +96,7 @@ const Section3 = () => {
                 backdropFilter: 'blur(10px)'
               }}>
                 <div style={{ display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }}>
-                  <CheckCircle size={20} style={{ color: '#667eea', marginRight: '0.5rem' }} />
+                  <FaCheck size={20} style={{ color: '#667eea', marginRight: '0.5rem' }} />
                   <strong style={{ color: '#667eea' }}>Phát triển kinh tế gắn với mục tiêu xã hội</strong>
                 </div>
                 <p style={{ color: '#1a365d', margin: 0 }}>Công bằng, đoàn kết, phúc lợi nhân dân - đây chính là đặc thù "kép": vừa phát triển thị trường, vừa đảm bảo định hướng XHCN.</p>
@@ -113,7 +113,7 @@ const Section3 = () => {
             animationDelay: '0.4s'
           }}>
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: '2rem' }}>
-              <Target size={32} style={{ color: '#8b5cf6', marginRight: '1rem' }} />
+              <FaBullseye size={32} style={{ color: '#8b5cf6', marginRight: '1rem' }} />
               <h3 style={{ fontSize: '1.75rem', fontWeight: '600', color: '#8b5cf6' }}>
                 Tính Tất Yếu
               </h3>
@@ -128,7 +128,7 @@ const Section3 = () => {
                 backdropFilter: 'blur(10px)'
               }}>
                 <div style={{ display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }}>
-                  <Award size={20} style={{ color: '#8b5cf6', marginRight: '0.5rem' }} />
+                  <FaTrophy size={20} style={{ color: '#8b5cf6', marginRight: '0.5rem' }} />
                   <strong style={{ color: '#8b5cf6' }}>Yêu cầu phát triển lực lượng sản xuất</strong>
                 </div>
                 <p style={{ color: '#1a365d', margin: 0 }}>Sau chiến tranh, nền kinh tế lạc hậu, nông nghiệp chiếm tỉ trọng cao. Chỉ có thị trường mới huy động được nguồn lực xã hội.</p>
@@ -142,7 +142,7 @@ const Section3 = () => {
                 backdropFilter: 'blur(10px)'
               }}>
                 <div style={{ display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }}>
-                  <Award size={20} style={{ color: '#8b5cf6', marginRight: '0.5rem' }} />
+                  <FaTrophy size={20} style={{ color: '#8b5cf6', marginRight: '0.5rem' }} />
                   <strong style={{ color: '#8b5cf6' }}>Yêu cầu hội nhập quốc tế</strong>
                 </div>
                 <p style={{ color: '#1a365d', margin: 0 }}>Khi Việt Nam gia nhập WTO năm 2007, cơ chế thị trường trở thành điều kiện bắt buộc để tham gia chuỗi cung ứng toàn cầu.</p>
@@ -156,7 +156,7 @@ const Section3 = () => {
                 backdropFilter: 'blur(10px)'
               }}>
                 <div style={{ display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }}>
-                  <Award size={20} style={{ color: '#8b5cf6', marginRight: '0.5rem' }} />
+                  <FaTrophy size={20} style={{ color: '#8b5cf6', marginRight: '0.5rem' }} />
                   <strong style={{ color: '#8b5cf6' }}>Yêu cầu bảo đảm định hướng XHCN</strong>
                 </div>
                 <p style={{ color: '#1a365d', margin: 0 }}>Phát triển kinh tế phải đi đôi với ổn định chính trị, công bằng xã hội, phúc lợi nhân dân - phân biệt với các nước theo con đường tư bản.</p>
@@ -170,7 +170,7 @@ const Section3 = () => {
                 backdropFilter: 'blur(10px)'
               }}>
                 <div style={{ display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }}>
-                  <Award size={20} style={{ color: '#8b5cf6', marginRight: '0.5rem' }} />
+                  <FaTrophy size={20} style={{ color: '#8b5cf6', marginRight: '0.5rem' }} />
                   <strong style={{ color: '#8b5cf6' }}>Kết luận về tính tất yếu</strong>
                 </div>
                 <p style={{ color: '#1a365d', margin: 0 }}>Lựa chọn phát triển KTTT định hướng XHCN không phải là tạm thời, mà là con đường duy nhất đúng đắn và phù hợp.</p>

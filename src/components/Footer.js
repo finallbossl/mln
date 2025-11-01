@@ -16,7 +16,7 @@ const Footer = () => {
               alignItems: 'center',
               marginBottom: '1.5rem'
             }}>
-              <BookOpen size={32} style={{ color: '#fbbf24', marginRight: '1rem' }} />
+              <FaBook size={32} style={{ color: '#fbbf24', marginRight: '1rem' }} />
               <h3 style={{ fontSize: '1.5rem', fontWeight: '600' }}>
                 Kinh Tế Thị Trường ĐHXHCN
               </h3>

@@ -39,7 +39,7 @@ const Section2 = () => {
             animationDelay: '0.2s'
           }}>
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: '1.5rem' }}>
-              <Scale size={32} style={{ color: '#16a34a', marginRight: '1rem' }} />
+              <FaBalanceScale size={32} style={{ color: '#16a34a', marginRight: '1rem' }} />
               <h3 style={{ fontSize: '1.75rem', fontWeight: '600', color: '#16a34a' }}>
                 Thống Nhất Biện Chứng Giữa Hai Mặt
               </h3>
@@ -52,15 +52,15 @@ const Section2 = () => {
                 </h4>
                 <ul style={{ listStyle: 'none', padding: 0 }}>
                   <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
-                    <Zap size={16} style={{ color: '#16a34a', marginRight: '0.5rem', marginTop: '0.25rem' }} />
+                    <FaBolt size={16} style={{ color: '#16a34a', marginRight: '0.5rem', marginTop: '0.25rem' }} />
                     <span style={{ color: '#1a365d' }}>Kích thích cạnh tranh, đổi mới công nghệ, tăng năng suất</span>
                   </li>
                   <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
-                    <Zap size={16} style={{ color: '#16a34a', marginRight: '0.5rem', marginTop: '0.25rem' }} />
+                    <FaBolt size={16} style={{ color: '#16a34a', marginRight: '0.5rem', marginTop: '0.25rem' }} />
                     <span style={{ color: '#1a365d' }}>Mở rộng sản xuất, tạo cơ sở vật chất cho CNXH</span>
                   </li>
                   <li style={{ display: 'flex', alignItems: 'flex-start' }}>
-                    <Zap size={16} style={{ color: '#16a34a', marginRight: '0.5rem', marginTop: '0.25rem' }} />
+                    <FaBolt size={16} style={{ color: '#16a34a', marginRight: '0.5rem', marginTop: '0.25rem' }} />
                     <span style={{ color: '#1a365d' }}>Huy động nguồn lực xã hội, vốn, công nghệ</span>
                   </li>
                 </ul>
@@ -72,15 +72,15 @@ const Section2 = () => {
                 </h4>
                 <ul style={{ listStyle: 'none', padding: 0 }}>
                   <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
-                    <Zap size={16} style={{ color: '#16a34a', marginRight: '0.5rem', marginTop: '0.25rem' }} />
+                    <FaBolt size={16} style={{ color: '#16a34a', marginRight: '0.5rem', marginTop: '0.25rem' }} />
                     <span style={{ color: '#1a365d' }}>Là mục tiêu, phương hướng của sự phát triển</span>
                   </li>
                   <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
-                    <Zap size={16} style={{ color: '#16a34a', marginRight: '0.5rem', marginTop: '0.25rem' }} />
+                    <FaBolt size={16} style={{ color: '#16a34a', marginRight: '0.5rem', marginTop: '0.25rem' }} />
                     <span style={{ color: '#1a365d' }}>Bảo đảm công bằng, ổn định và phát triển bền vững</span>
                   </li>
                   <li style={{ display: 'flex', alignItems: 'flex-start' }}>
-                    <Zap size={16} style={{ color: '#16a34a', marginRight: '0.5rem', marginTop: '0.25rem' }} />
+                    <FaBolt size={16} style={{ color: '#16a34a', marginRight: '0.5rem', marginTop: '0.25rem' }} />
                     <span style={{ color: '#1a365d' }}>Bảo vệ các nhóm yếu thế, đảm bảo phúc lợi xã hội</span>
                   </li>
                 </ul>
@@ -111,7 +111,7 @@ const Section2 = () => {
             animationDelay: '0.4s'
           }}>
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: '1.5rem' }}>
-              <AlertTriangle size={32} style={{ color: '#dc2626', marginRight: '1rem' }} />
+              <FaExclamationTriangle size={32} style={{ color: '#dc2626', marginRight: '1rem' }} />
               <h3 style={{ fontSize: '1.75rem', fontWeight: '600', color: '#dc2626' }}>
                 Mâu Thuẫn và Cách Giải Quyết
               </h3>
@@ -127,15 +127,15 @@ const Section2 = () => {
                 </p>
                 <ul style={{ listStyle: 'none', padding: 0 }}>
                   <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
-                    <AlertTriangle size={16} style={{ color: '#dc2626', marginRight: '0.5rem', marginTop: '0.25rem' }} />
+                    <FaExclamationTriangle size={16} style={{ color: '#dc2626', marginRight: '0.5rem', marginTop: '0.25rem' }} />
                     <span style={{ color: '#1a365d' }}>Phân hóa giàu nghèo, bóc lột, và bất công</span>
                   </li>
                   <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
-                    <AlertTriangle size={16} style={{ color: '#dc2626', marginRight: '0.5rem', marginTop: '0.25rem' }} />
+                    <FaExclamationTriangle size={16} style={{ color: '#dc2626', marginRight: '0.5rem', marginTop: '0.25rem' }} />
                     <span style={{ color: '#1a365d' }}>Tham nhũng, độc quyền, chênh lệch giàu nghèo</span>
                   </li>
                   <li style={{ display: 'flex', alignItems: 'flex-start' }}>
-                    <AlertTriangle size={16} style={{ color: '#dc2626', marginRight: '0.5rem', marginTop: '0.25rem' }} />
+                    <FaExclamationTriangle size={16} style={{ color: '#dc2626', marginRight: '0.5rem', marginTop: '0.25rem' }} />
                     <span style={{ color: '#1a365d' }}>Trái với bản chất của chủ nghĩa xã hội</span>
                   </li>
                 </ul>
@@ -150,15 +150,15 @@ const Section2 = () => {
                 </p>
                 <ul style={{ listStyle: 'none', padding: 0 }}>
                   <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
-                    <Scale size={16} style={{ color: '#16a34a', marginRight: '0.5rem', marginTop: '0.25rem' }} />
+                    <FaBalanceScale size={16} style={{ color: '#16a34a', marginRight: '0.5rem', marginTop: '0.25rem' }} />
                     <span style={{ color: '#1a365d' }}>Bảo đảm công bằng, an sinh và phát triển bền vững</span>
                   </li>
                   <li style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
-                    <Scale size={16} style={{ color: '#16a34a', marginRight: '0.5rem', marginTop: '0.25rem' }} />
+                    <FaBalanceScale size={16} style={{ color: '#16a34a', marginRight: '0.5rem', marginTop: '0.25rem' }} />
                     <span style={{ color: '#1a365d' }}>Hạn chế mặt trái của thị trường</span>
                   </li>
                   <li style={{ display: 'flex', alignItems: 'flex-start' }}>
-                    <Scale size={16} style={{ color: '#16a34a', marginRight: '0.5rem', marginTop: '0.25rem' }} />
+                    <FaBalanceScale size={16} style={{ color: '#16a34a', marginRight: '0.5rem', marginTop: '0.25rem' }} />
                     <span style={{ color: '#1a365d' }}>Bảo vệ các nhóm yếu thế, đảm bảo phúc lợi xã hội</span>
                   </li>
                 </ul>
@@ -175,7 +175,7 @@ const Section2 = () => {
             animationDelay: '0.6s'
           }}>
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: '1.5rem' }}>
-              <Settings size={32} style={{ color: '#667eea', marginRight: '1rem' }} />
+              <FaCog size={32} style={{ color: '#667eea', marginRight: '1rem' }} />
               <h3 style={{ fontSize: '1.75rem', fontWeight: '600', color: '#667eea' }}>
                 Thực Tiễn Việt Nam Chứng Minh
               </h3>
