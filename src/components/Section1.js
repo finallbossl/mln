@@ -12,17 +12,19 @@ const Section1 = () => {
           <h2 style={{
             fontSize: '2.5rem',
             fontWeight: '700',
-            color: '#1a365d',
+            color: '#3e2723',
             marginBottom: '1rem',
-            textShadow: '0 2px 4px rgba(0,0,0,0.1)'
+            textShadow: '2px 2px 4px rgba(139, 69, 19, 0.1)',
+            fontFamily: 'Merriweather, serif'
           }}>
             Cơ Sở Lý Luận Về KTTT-ĐHXHCN
           </h2>
           <p style={{
             fontSize: '1.125rem',
-            color: '#64748b',
+            color: '#5d4037',
             maxWidth: '600px',
-            margin: '0 auto'
+            margin: '0 auto',
+            fontFamily: 'Lora, serif'
           }}>
             Khái niệm, bản chất và cơ sở hình thành của mô hình KTTT-ĐHXHCN ở Việt Nam
           </p>
