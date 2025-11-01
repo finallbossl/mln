@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { HiMenu, HiX } from 'react-icons/hi';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -45,7 +45,7 @@ const Header = () => {
             cursor: 'pointer'
           }}
         >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          {isMenuOpen ? <HiX size={24} /> : <HiMenu size={24} />}
         </button>
       </div>
     </header>

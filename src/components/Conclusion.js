@@ -1,5 +1,5 @@
 import React from 'react';
-import { Trophy, ArrowUpRight, Heart, Globe2 } from 'lucide-react';
+import { FaTrophy, FaArrowUp } from 'react-icons/fa';
 
 const Conclusion = () => {
   return (
@@ -11,7 +11,7 @@ const Conclusion = () => {
     }}>
       <div className="container">
         <div className="text-center mb-12 animate-fadeInUp">
-          <Trophy size={64} style={{ color: '#fbbf24', margin: '0 auto 1.5rem' }} />
+          <FaTrophy size={64} style={{ color: '#fbbf24', margin: '0 auto 1.5rem' }} />
           <h2 style={{
             fontSize: '2.5rem',
             fontWeight: '700',
@@ -46,7 +46,7 @@ const Conclusion = () => {
             justifyContent: 'center',
             marginBottom: '1.5rem'
           }}>
-            <ArrowUpRight size={24} style={{ color: '#fbbf24', marginRight: '0.5rem' }} />
+            <FaArrowUp size={24} style={{ color: '#fbbf24', marginRight: '0.5rem' }} />
             <h3 style={{ fontSize: '1.5rem', fontWeight: '600', color: '#fbbf24' }}>
               Thành Tựu Đạt Được
             </h3>
