@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, History, ArrowRight } from 'lucide-react';
+import { FaBook, FaHistory, FaArrowRight } from 'react-icons/fa';
 
 const Section1 = () => {
   return (

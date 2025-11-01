@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, CheckCircle, Target, Award } from 'lucide-react';
+import { FaStar, FaCheckCircle, FaBullseye, FaAward } from 'react-icons/fa';
 
 const Section3 = () => {
   return (

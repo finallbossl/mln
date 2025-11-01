@@ -1,5 +1,5 @@
 import React from 'react';
-import { Scale, Zap, AlertTriangle, Settings } from 'lucide-react';
+import { FaBalanceScale, FaBolt, FaExclamationTriangle, FaCog } from 'react-icons/fa';
 
 const Section2 = () => {
   return (

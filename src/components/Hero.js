@@ -1,5 +1,5 @@
 import React from 'react';
-import { TrendingUp, Users, Globe } from 'lucide-react';
+import { FaChartLine, FaUsers, FaGlobe } from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -54,7 +54,7 @@ const Hero = () => {
             borderRadius: '20px',
             animationDelay: '0s'
           }}>
-            <TrendingUp size={48} style={{ color: '#667eea', marginBottom: '1rem' }} />
+            <FaChartLine size={48} style={{ color: '#667eea', marginBottom: '1rem' }} />
             <h3 style={{ fontSize: '1.25rem', fontWeight: '600', marginBottom: '0.5rem' }}>Hiệu Quả Kinh Tế</h3>
             <p style={{ opacity: 0.8 }}>Phát triển lực lượng sản xuất và tăng trưởng bền vững</p>
           </div>
@@ -64,7 +64,7 @@ const Hero = () => {
             borderRadius: '20px',
             animationDelay: '0.2s'
           }}>
-            <Users size={48} style={{ color: '#764ba2', marginBottom: '1rem' }} />
+            <FaUsers size={48} style={{ color: '#764ba2', marginBottom: '1rem' }} />
             <h3 style={{ fontSize: '1.25rem', fontWeight: '600', marginBottom: '0.5rem' }}>Công Bằng Xã Hội</h3>
             <p style={{ opacity: 0.8 }}>Đảm bảo phúc lợi và an sinh cho mọi người dân</p>
           </div>
@@ -74,7 +74,7 @@ const Hero = () => {
             borderRadius: '20px',
             animationDelay: '0.4s'
           }}>
-            <Globe size={48} style={{ color: '#8b5cf6', marginBottom: '1rem' }} />
+            <FaGlobe size={48} style={{ color: '#8b5cf6', marginBottom: '1rem' }} />
             <h3 style={{ fontSize: '1.25rem', fontWeight: '600', marginBottom: '0.5rem' }}>Hội Nhập Quốc Tế</h3>
             <p style={{ opacity: 0.8 }}>Mở cửa và tham gia chuỗi giá trị toàn cầu</p>
           </div>

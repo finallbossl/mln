@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Mail, Phone, MapPin } from 'lucide-react';
+import { FaBook, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Footer = () => {
   return (
