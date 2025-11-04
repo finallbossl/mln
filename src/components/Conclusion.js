@@ -4,7 +4,7 @@ import { FaTrophy, FaArrowUp } from 'react-icons/fa';
 const Conclusion = () => {
   return (
     <section id="ket-luan" className="section" style={{
-      background: 'linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.8) 50%, rgba(139, 92, 246, 0.9) 100%)',
+      background: 'linear-gradient(135deg, rgba(234, 243, 152, 0.9) 0%, rgba(220, 176, 145, 0.8) 50%, rgba(220, 246, 92, 0.9) 100%)',
       backdropFilter: 'blur(20px)',
       color: 'white',
       padding: '100px 0'

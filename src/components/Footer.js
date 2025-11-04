@@ -4,7 +4,7 @@ import { FaBook, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer style={{
-      backgroundColor: '#1a365d',
+      backgroundColor: '#f2e6e0',
       color: 'white',
       padding: '3rem 0 1.5rem'
     }}>
@@ -27,8 +27,7 @@ const Footer = () => {
               opacity: 0.9,
               marginBottom: '1.5rem'
             }}>
-              Tài liệu giáo dục về mô hình kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam - 
-              Sự kết hợp biện chứng giữa hiệu quả thị trường và công bằng xã hội.
+             Nhóm: NewWind
             </p>
 
             <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
@@ -127,16 +126,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div style={{
-          borderTop: '1px solid rgba(255, 255, 255, 0.2)',
-          paddingTop: '1.5rem',
-          textAlign: 'center'
-        }}>
-          <p style={{ opacity: 0.8, fontSize: '0.875rem' }}>
-            © 2024 Tài liệu giáo dục về Kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam. 
-            Được thiết kế để truyền tải kiến thức một cách hiện đại và dễ hiểu.
-          </p>
-        </div>
+        
       </div>
     </footer>
   );

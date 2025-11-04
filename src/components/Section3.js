@@ -348,60 +348,7 @@ const Section3 = () => {
         </div>
 
         {/* Quote từ Cương lĩnh */}
-        <div className="glass-card animate-fadeInUp" style={{
-          background: 'linear-gradient(135deg, rgba(102, 126, 234, 0.2), rgba(118, 75, 162, 0.1))',
-          padding: '3rem',
-          borderRadius: '20px',
-          textAlign: 'center',
-          position: 'relative',
-          overflow: 'hidden',
-          border: '2px solid rgba(102, 126, 234, 0.3)',
-          animationDelay: '0.8s'
-        }}>
-          <div style={{
-            position: 'absolute',
-            top: '1rem',
-            left: '1rem',
-            fontSize: '4rem',
-            opacity: 0.2,
-            color: '#667eea'
-          }}>
-            "
-          </div>
-          <div style={{
-            position: 'absolute',
-            bottom: '1rem',
-            right: '1rem',
-            fontSize: '4rem',
-            opacity: 0.2,
-            color: '#667eea'
-          }}>
-            "
-          </div>
-          
-          <h3 style={{
-            fontSize: '1.5rem',
-            fontWeight: '600',
-            marginBottom: '1.5rem',
-            background: 'linear-gradient(135deg, #667eea, #764ba2)',
-            WebkitBackgroundClip: 'text',
-            WebkitTextFillColor: 'transparent',
-            backgroundClip: 'text'
-          }}>
-            Cương Lĩnh Xây Dựng Đất Nước (2011, bổ sung 2021)
-          </h3>
-          
-          <p style={{
-            fontSize: '1.25rem',
-            lineHeight: '1.8',
-            fontStyle: 'italic',
-            maxWidth: '800px',
-            margin: '0 auto',
-            color: '#1a365d'
-          }}>
-            "Phát triển nền kinh tế thị trường định hướng xã hội chủ nghĩa là mô hình kinh tế tổng quát trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam."
-          </p>
-        </div>
+       
       </div>
     </section>
   );
